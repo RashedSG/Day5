@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>انضم كمزوّد — وصلة</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">تخطّي إلى المحتوى</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mark">و</span> وصلة</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">القائمة</button>
+    <nav class="nav" id="site-nav">
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="services.html">الخدمات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="faq.html">الأسئلة</a></li>
+        <li><a href="contact.html">تواصل</a></li>
+        <li><a class="nav-cta" href="join.html" aria-current="page">انضم كمزوّد</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="section">
+    <div class="wrap">
+      <h1>أضف خدمتك</h1>
+      <p class="lead">نراجع البيانات ثم نتواصل قبل النشر. لا رسوم على الإدراج الأساسي في هذه المرحلة.</p>
+      <div class="split">
+        <form class="js-form" action="#" method="post" novalidate>
+          <div class="field"><label for="name">اسم النشاط</label><input id="name" name="name"><p class="error" id="err-name"></p></div>
+          <div class="field"><label for="email">البريد</label><input id="email" name="email" type="email" dir="ltr"><p class="error" id="err-email"></p></div>
+          <div class="field"><label for="message">نبذة عن الخدمة</label><textarea id="message" name="message"></textarea><p class="error" id="err-message"></p></div>
+          <button class="btn" type="submit">أرسل طلب الإدراج</button>
+          <p class="form-status" role="status"></p>
+        </form>
+        <aside class="info">
+          <dl>
+            <dt>١. مراجعة</dt><dd>نتأكد من وضوح المجال والتغطية.</dd>
+            <dt>٢. تواصل</dt><dd>نتصل لتأكيد البيانات.</dd>
+            <dt>٣. نشر</dt><dd>تظهر بطاقتك في الدليل.</dd>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="wrap"><p class="copy">© <span data-year>2026</span> وصلة</p></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
