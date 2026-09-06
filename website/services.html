@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الخدمات — وصلة</title>
+<meta name="description" content="مجالات الخدمة في وصلة: صيانة، دعم فني، نقل، تنظيف، تصميم، وخدمات المكتب.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">تخطّي إلى المحتوى</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mark">و</span> وصلة</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">القائمة</button>
+    <nav class="nav" id="site-nav">
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="services.html" aria-current="page">الخدمات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="faq.html">الأسئلة</a></li>
+        <li><a href="contact.html">تواصل</a></li>
+        <li><a class="nav-cta" href="join.html">انضم كمزوّد</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="section">
+    <div class="wrap">
+      <p class="kicker">الدليل</p>
+      <h1>الخدمات</h1>
+      <p class="lead">صفِّ حسب المجال أو ابحث بكلمة. كل بطاقة توضح التغطية ووقت الرد.</p>
+      <div class="search"><label for="q" style="position:absolute;clip:rect(0 0 0 0)">بحث</label>
+        <input id="q" type="search" placeholder="مثال: تكييف أو نقل"></div>
+      <div class="chips" id="chips">
+        <button class="chip" type="button" data-cat="all" aria-pressed="true">الكل</button>
+        <button class="chip" type="button" data-cat="home" aria-pressed="false">صيانة</button>
+        <button class="chip" type="button" data-cat="tech" aria-pressed="false">دعم فني</button>
+        <button class="chip" type="button" data-cat="move" aria-pressed="false">نقل</button>
+        <button class="chip" type="button" data-cat="clean" aria-pressed="false">تنظيف</button>
+        <button class="chip" type="button" data-cat="design" aria-pressed="false">تصميم</button>
+        <button class="chip" type="button" data-cat="office" aria-pressed="false">مكتب</button>
+      </div>
+      <ul class="grid" id="service-grid">
+        <li class="card" id="home" data-cat="home"><h3>صيانة المنازل</h3><p>سباكة وكهرباء وتكييف وأعمال خفيفة داخل البيت.</p><p class="meta">العين · غالباً في اليوم نفسه</p></li>
+        <li class="card" id="tech" data-cat="tech"><h3>الدعم الفني</h3><p>حاسوب وجوال وطابعة وشبكة منزلية.</p><p class="meta">عن بُعد أو زيارة</p></li>
+        <li class="card" id="move" data-cat="move"><h3>النقل والشحن</h3><p>نقل أثاث وطرود داخل المدينة وبين الإمارات.</p><p class="meta">حجز قبل يوم</p></li>
+        <li class="card" id="clean" data-cat="clean"><h3>التنظيف</h3><p>تنظيف منازل ومكاتب، زيارة أو عقد.</p><p class="meta">العين والمفرق</p></li>
+        <li class="card" id="design" data-cat="design"><h3>التصميم والطباعة</h3><p>شعار وهوية ومطبوعات للمحل.</p><p class="meta">تسليم خلال ٣ أيام للعمل القياسي</p></li>
+        <li class="card" id="office" data-cat="office"><h3>خدمات المكتب</h3><p>مسك دفاتر بسيط واستشارة تأسيس.</p><p class="meta">متابعة شهرية</p></li>
+      </ul>
+      <p style="margin-block-start:1.5rem"><a class="btn" href="contact.html">اطلب خدمة الآن</a></p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="wrap"><p class="copy">© <span data-year>2026</span> وصلة</p></div></footer>
+<script src="script.js"></script>
+</body>
+</html>

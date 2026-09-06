@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تواصل — وصلة</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">تخطّي إلى المحتوى</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mark">و</span> وصلة</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">القائمة</button>
+    <nav class="nav" id="site-nav">
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="services.html">الخدمات</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="faq.html">الأسئلة</a></li>
+        <li><a href="contact.html" aria-current="page">تواصل</a></li>
+        <li><a class="nav-cta" href="join.html">انضم كمزوّد</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="section">
+    <div class="wrap">
+      <h1>تواصل معنا</h1>
+      <p class="lead">اكتب طلبك. في هذه النسخة تُحفظ الرسالة على جهازك، وللتأكيد استخدم البريد أو الهاتف.</p>
+      <div class="banner is-notice">النموذج تجريبي ولا يُرسل إلى خادم.</div>
+      <div class="split">
+        <form class="js-form" action="#" method="post" novalidate>
+          <div class="field"><label for="name">الاسم</label><input id="name" name="name" autocomplete="name"><p class="error" id="err-name"></p></div>
+          <div class="field"><label for="email">البريد</label><input id="email" name="email" type="email" dir="ltr" autocomplete="email"><p class="error" id="err-email"></p></div>
+          <div class="field"><label for="service">المجال</label>
+            <select id="service" name="service">
+              <option value="">اختر مجالًا</option>
+              <option>صيانة المنازل</option><option>الدعم الفني</option><option>النقل</option><option>التنظيف</option><option>التصميم</option><option>خدمات المكتب</option>
+            </select>
+          </div>
+          <div class="field"><label for="message">التفاصيل</label><textarea id="message" name="message"></textarea><p class="error" id="err-message"></p></div>
+          <button class="btn" type="submit">أرسل</button>
+          <p class="form-status" role="status"></p>
+        </form>
+        <aside class="info">
+          <dl>
+            <dt>البريد</dt><dd dir="ltr"><a href="mailto:hello@wasla.ae">hello@wasla.ae</a></dd>
+            <dt>الهاتف</dt><dd dir="ltr"><a href="tel:+97137664400">+971 3 766 4400</a></dd>
+            <dt>الساعات</dt><dd>الأحد–الخميس، ٩ ص — ٦ م</dd>
+            <dt>العنوان</dt><dd>وسط مدينة العين، أبوظبي</dd>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="wrap"><p class="copy">© <span data-year>2026</span> وصلة</p></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
