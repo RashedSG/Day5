@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سجل الأجهزة</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="hardware">
+<header><div class="wrap"><a class="brand" href="index.html">مدير التطبيقات</a><nav><a href="index.html">التطبيقات</a><a href="employees.html">الموظفون</a><a href="hardware.html" aria-current="page">الأجهزة</a></nav></div></header>
+<main class="wrap">
+<h1>قاعدة بيانات الأجهزة والعتاد</h1>
+<p class="json-link">JSON: <a href="data/hardware.json">data/hardware.json</a></p>
+<ul class="stats" id="stats"></ul>
+<div class="toolbar"><input id="q" type="search" placeholder="رمز أو اسم"><select id="category"><option value="">كل الفئات</option></select></div>
+<p id="error"></p>
+<div style="overflow:auto"><table><thead><tr><th>الرمز</th><th>الاسم</th><th>الفئة</th><th>الحالة</th><th>الموقع</th><th class="hide-sm">الحافظ</th></tr></thead><tbody id="hw-body"></tbody></table></div>
+</main>
+<script src="app.js"></script>
+</body></html>

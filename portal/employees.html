@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الموظفون</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="employees">
+<header><div class="wrap"><a class="brand" href="index.html">مدير التطبيقات</a><nav><a href="index.html">التطبيقات</a><a href="employees.html" aria-current="page">الموظفون</a><a href="hardware.html">الأجهزة</a></nav></div></header>
+<main class="wrap">
+<h1>الموظفون</h1>
+<p class="json-link">JSON: <a href="data/employees.json">data/employees.json</a></p>
+<ul class="stats" id="stats"></ul>
+<div class="toolbar"><input id="q" type="search" placeholder="اسم أو رمز"><select id="unit"><option value="">كل الوحدات</option><option value="hardware">الأجهزة</option><option value="finance">المالية</option><option value="parking">المواقف</option><option value="accommodation">السكن</option><option value="health">الصحة</option></select></div>
+<p id="error"></p>
+<div style="overflow:auto"><table><thead><tr><th>الرمز</th><th>الاسم</th><th>الدور</th><th>الوحدة</th><th class="hide-sm">البريد</th><th>الحالة</th></tr></thead><tbody id="emp-body"></tbody></table></div>
+</main>
+<script src="app.js"></script>
+</body></html>
