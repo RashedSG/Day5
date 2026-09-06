@@ -1,0 +1,11 @@
+{
+  "meta": {"title": "الموظفون", "unit": "shared", "owner": "راشد الغفلي", "generated_at": "2026-09-06"},
+  "employees": [
+    {"id": 1, "code": "EMP-014", "name": "راشد الغفلي", "role": "مدير التطبيقات", "unit": "hardware", "unit_label": "الأجهزة والعتاد", "email": "rashed@example.ae", "status": "active"},
+    {"id": 2, "code": "EMP-021", "name": "نورة الكتبي", "role": "مسؤولة العهدة", "unit": "hardware", "unit_label": "الأجهزة والعتاد", "email": "noura@example.ae", "status": "active"},
+    {"id": 3, "code": "EMP-033", "name": "سالم المنصوري", "role": "محاسب أصول", "unit": "finance", "unit_label": "المالية", "email": "salem@example.ae", "status": "active"},
+    {"id": 4, "code": "EMP-044", "name": "ماجد الشامسي", "role": "مشرف مواقف", "unit": "parking", "unit_label": "المواقف", "email": "majed@example.ae", "status": "active"},
+    {"id": 5, "code": "EMP-052", "name": "هند الظاهري", "role": "منسقة سكن", "unit": "accommodation", "unit_label": "السكن", "email": "hind@example.ae", "status": "active"},
+    {"id": 6, "code": "EMP-061", "name": "عائشة الكعبي", "role": "ممرضة وحدة", "unit": "health", "unit_label": "الصحة", "email": "aisha@example.ae", "status": "active"}
+  ]
+}
