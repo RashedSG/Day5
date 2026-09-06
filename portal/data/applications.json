@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "مدير التطبيقات",
+    "generated_at": "2026-09-06",
+    "owner": "راشد الغفلي"
+  },
+  "units": [
+    {"id": "finance", "label": "المالية"},
+    {"id": "parking", "label": "المواقف"},
+    {"id": "accommodation", "label": "السكن"},
+    {"id": "hardware", "label": "الأجهزة والعتاد"},
+    {"id": "health", "label": "الصحة"}
+  ],
+  "applications": [
+    {
+      "id": "hw-assets",
+      "name": "سجل الأجهزة والعتاد",
+      "unit": "hardware",
+      "unit_label": "الأجهزة والعتاد",
+      "owner": "راشد الغفلي",
+      "owner_role": "مدير التطبيقات",
+      "status": "active",
+      "summary": "قاعدة بيانات العهدة.",
+      "page": "hardware.html",
+      "json": "data/hardware.json",
+      "employees": "data/employees.json"
+    },
+    {
+      "id": "fn-claims",
+      "name": "مطالبات المالية",
+      "unit": "finance",
+      "unit_label": "المالية",
+      "owner": "سالم المنصوري",
+      "status": "planned",
+      "summary": "سجل مطالبات الشراء.",
+      "page": null,
+      "json": null
+    },
+    {
+      "id": "pk-lots",
+      "name": "سجل المواقف",
+      "unit": "parking",
+      "unit_label": "المواقف",
+      "owner": "ماجد الشامسي",
+      "status": "planned",
+      "summary": "خانات المواقف.",
+      "page": null,
+      "json": null
+    },
+    {
+      "id": "ac-rooms",
+      "name": "غرف السكن",
+      "unit": "accommodation",
+      "unit_label": "السكن",
+      "owner": "هند الظاهري",
+      "status": "planned",
+      "summary": "توزيع الغرف.",
+      "page": null,
+      "json": null
+    },
+    {
+      "id": "hl-clinic",
+      "name": "عيادة المنشأة",
+      "unit": "health",
+      "unit_label": "الصحة",
+      "owner": "عائشة الكعبي",
+      "status": "planned",
+      "summary": "أجهزة طبية.",
+      "page": null,
+      "json": null
+    }
+  ]
+}

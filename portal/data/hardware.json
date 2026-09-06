@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "title": "سجل الأجهزة والعتاد",
+    "unit": "hardware",
+    "owner": "راشد الغفلي",
+    "generated_at": "2026-09-06"
+  },
+  "categories": [
+    {"id": "computers", "label": "أجهزة حاسوب"},
+    {"id": "networking", "label": "شبكات"},
+    {"id": "vehicles", "label": "مركبات"},
+    {"id": "tools", "label": "عدد ومعدّات"},
+    {"id": "furniture", "label": "أثاث عهدة"}
+  ],
+  "items": [
+    {"id": 1, "code": "IT-0142", "name": "جهاز محمول Dell Latitude", "category": "computers", "status": "in_use", "status_label": "قيد الاستخدام", "location": "قسم المالية", "custodian": "سالم المنصوري", "purchase_date": "2024-03-12", "notes": ""},
+    {"id": 2, "code": "IT-0208", "name": "طابعة شبكة HP LaserJet", "category": "computers", "status": "in_use", "status_label": "قيد الاستخدام", "location": "الاستقبال", "custodian": "نورة الكتبي", "purchase_date": "2023-11-02", "notes": ""},
+    {"id": 3, "code": "NW-0012", "name": "مبدّل شبكة 24 منفذ", "category": "networking", "status": "in_use", "status_label": "قيد الاستخدام", "location": "غرفة السيرفر", "custodian": "راشد الغفلي", "purchase_date": "2023-04-05", "notes": ""},
+    {"id": 4, "code": "VH-0007", "name": "سيارة نقل بيك أب", "category": "vehicles", "status": "maintenance", "status_label": "صيانة", "location": "الكراج", "custodian": "ماجد الشامسي", "purchase_date": "2021-09-30", "notes": ""},
+    {"id": 5, "code": "TL-0044", "name": "مثقاب صناعي", "category": "tools", "status": "in_use", "status_label": "قيد الاستخدام", "location": "ورشة الصيانة", "custodian": "نورة الكتبي", "purchase_date": "2024-07-21", "notes": ""},
+    {"id": 6, "code": "FN-0031", "name": "مكتب خشبي مزدوج", "category": "furniture", "status": "in_use", "status_label": "قيد الاستخدام", "location": "السكن — جناح ب", "custodian": "هند الظاهري", "purchase_date": "2022-06-18", "notes": ""},
+    {"id": 7, "code": "MD-0004", "name": "جهاز قياس ضغط", "category": "tools", "status": "in_use", "status_label": "قيد الاستخدام", "location": "عيادة المنشأة", "custodian": "عائشة الكعبي", "purchase_date": "2025-02-11", "notes": ""},
+    {"id": 8, "code": "IT-0310", "name": "شاشة عرض 75 بوصة", "category": "computers", "status": "storage", "status_label": "في المخزن", "location": "المخزن أ", "custodian": "نورة الكتبي", "purchase_date": "2025-08-14", "notes": ""}
+  ]
+}
